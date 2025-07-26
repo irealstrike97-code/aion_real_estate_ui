@@ -2,12 +2,16 @@
   "name": "aion_real_estate_ui",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "tailwindcss -i ./src/index.css -o ./src/index.css && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "tailwindcss -i ./src/index.css -o ./src/index.css && react-scripts build",
+
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+
+
+,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
