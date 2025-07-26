@@ -4,7 +4,8 @@
   "private": true,
 "scripts": {
   "start": "react-scripts start",
-  "build": "tailwindcss -i ./src/index.css -o ./src/index.css && react-scripts build",
+  "build": "tailwindcss -i ./src/index.css -o ./src/output.css && react-scripts build"
+,
 
   "test": "react-scripts test",
   "eject": "react-scripts eject"
